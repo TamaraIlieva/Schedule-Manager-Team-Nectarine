@@ -44,14 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activity.cs" />
+    <Compile Include="ActivityType.cs" />
     <Compile Include="Administrator.cs" />
     <Compile Include="Calendar.cs" />
     <Compile Include="CompanyCalendar.cs" />
     <Compile Include="ContractType.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeCalendar.cs" />
+    <Compile Include="Month.cs" />
     <Compile Include="Schedule.cs" />
     <Compile Include="Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.cs" />
     <Compile Include="TeamCalendar.cs" />
     <Compile Include="Worker.cs" />
   </ItemGroup>

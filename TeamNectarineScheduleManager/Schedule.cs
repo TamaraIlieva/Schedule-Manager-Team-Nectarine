@@ -14,6 +14,7 @@ namespace TeamNectarineScheduleManager
         private string lunchStart;
         private string lunchEnd;
 
+
         public Schedule()
         {
             // default values

@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    class Calendar
+    public enum ActivityType
     {
-        private Month month;
-        private int week; // specify week number
-        private Day day;
+        Backoffice,
+        Lunch,
+        Break,
+        Training,
+        Off,
+        Leave
     }
 }

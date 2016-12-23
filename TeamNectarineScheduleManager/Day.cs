@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    class Calendar
+    public enum Day
     {
-        private Month month;
-        private int week; // specify week number
-        private Day day;
+        Monday = 1,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
     }
 }

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    public enum ActivityType
+    class Activity
     {
-        Backoffice,
-        Lunch,
-        Break,
-        Training,
-        Off,
-        Leave
+        private ActivityType activityType;
+
+        public Activity()
+        {
+            this.activityType = ActivityType.Backoffice; // this is the default activity
+        }
     }
 }

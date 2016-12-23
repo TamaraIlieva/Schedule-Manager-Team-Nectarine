@@ -8,5 +8,16 @@ namespace TeamNectarineScheduleManager
 {
     class Team
     {
+        private string teamName;
+
+        public Team()
+        {
+            this.teamName = "Unknown team";
+        }
+
+        public Team(string teamName)
+        {
+            this.teamName = teamName;
+        }
     }
 }

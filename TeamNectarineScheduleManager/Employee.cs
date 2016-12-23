@@ -9,12 +9,14 @@ namespace TeamNectarineScheduleManager
     class Employee
     {
         private Schedule defaultSchedule;
-        private ContractType contractType;
+        private Team team;
+        private string username; // needed for log-in
+        private string password; // needed for log-in
 
         public Employee()
         {
             this.defaultSchedule = new Schedule();
-            this.contractType = ContractType.FullTime;
+            this.team = new Team();
         }
     }
 }
