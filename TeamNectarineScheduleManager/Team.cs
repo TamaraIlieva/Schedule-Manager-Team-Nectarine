@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    class Calendar
+    class Team
     {
-        private DayOfWeek day;
-        private ActivityType activity;
     }
 }

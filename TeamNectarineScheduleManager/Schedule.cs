@@ -16,6 +16,7 @@ namespace TeamNectarineScheduleManager
 
         public Schedule()
         {
+            // default values
             this.dayStart = "0900";
             this.dayEnd = "1800";
             this.lunchStart = "1300";

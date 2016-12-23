@@ -8,7 +8,7 @@ namespace TeamNectarineScheduleManager
 {
     class Start
     {
-        static void Main(string[] args)
+        static void Main()
         {
         }
     }

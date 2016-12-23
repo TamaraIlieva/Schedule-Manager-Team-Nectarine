@@ -8,7 +8,13 @@ namespace TeamNectarineScheduleManager
 {
     class Employee
     {
-        private Schedule weekSchedule;
+        private Schedule defaultSchedule;
         private ContractType contractType;
+
+        public Employee()
+        {
+            this.defaultSchedule = new Schedule();
+            this.contractType = ContractType.FullTime;
+        }
     }
 }
