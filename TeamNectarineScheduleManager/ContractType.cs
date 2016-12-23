@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    class Employee
+    public enum ContractType
     {
-        private Schedule weekSchedule;
-        private ContractType contractType;
+        FullTime,
+        PartTime6Hours,
+        PartTime4Hours
     }
+
 }

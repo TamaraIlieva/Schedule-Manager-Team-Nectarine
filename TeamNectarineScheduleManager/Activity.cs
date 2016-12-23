@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    class Employee
+    public enum ActivityType
     {
-        private Schedule weekSchedule;
-        private ContractType contractType;
+        Backoffice,
+        Lunch,
+        Break,
+        Training,
+        Off,
+        Leave
     }
 }

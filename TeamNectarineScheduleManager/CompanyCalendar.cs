@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace TeamNectarineScheduleManager
 {
-    class Employee
+    class CompanyCalendar : Calendar
     {
-        private Schedule weekSchedule;
-        private ContractType contractType;
     }
 }
